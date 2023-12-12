@@ -470,7 +470,7 @@ disk
 
 之后还有一个 `indirect block number`，它对应了磁盘上一个 `block`，这个 `block` 包含了 `256` 个 `block number`，这 `256` 个 `block number` 包含了文件的数据。所以 `inode` 中 `block number 0` 到 `block number 11` 都是 `direct block number`，而 `block number 12` 保存的 `indirect block number` 指向了另一个 `block`。
 
-<img src="img\E953D39EE3CBE32FE75817D99BECA595.jpg" alt="img" style="zoom:50%;" />
+<img src="img\p3.png" alt="img" style="zoom:50%;" />
 
 ##### 目录结构
 
