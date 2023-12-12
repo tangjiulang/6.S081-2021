@@ -440,7 +440,7 @@ disk
 
 ##### XV6 布局节构
 
-![img](img\assets%2F-MHZoT2b_bcLghjAOPsJ%2F-MRhzbAZwhuzp63wWdRE%2F-MRielGcbrHOzPCrxHcO%2Fimage.png)
+![img](img\p7.png)
 
 `block0` 要么没有用，要么被用作 `boot sector` 来启动操作系统。
 
