@@ -214,7 +214,7 @@ w_satp(MAKE_SATP(kernel_pagetable));
 
 #### `Trap` 代码执行流程
 
-![image-20231121145632161](img\p8.png)
+![image-20231121145632161](img/p8.png)
 
 #### `uservec`
 
