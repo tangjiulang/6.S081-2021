@@ -214,7 +214,7 @@ w_satp(MAKE_SATP(kernel_pagetable));
 
 #### `Trap` 代码执行流程
 
-![image-20231121145632161](img\image-20231121145632161.png)
+![image-20231121145632161](img\p8.png)
 
 #### `uservec`
 
@@ -501,7 +501,7 @@ disk
 
 * 第三阶段将“\n”换行符写入到文件
 
-![image-20231202183359475](img\image-20231202183359475.png)
+![image-20231202183359475](img\p9.png)
 
 ##### 创建文件
 
