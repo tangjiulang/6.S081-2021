@@ -214,7 +214,7 @@ w_satp(MAKE_SATP(kernel_pagetable));
 
 #### `Trap` 代码执行流程
 
-![image-20231121145632161](img\p8.png)
+![image-20231121145632161](img/p8.png)
 
 #### `uservec`
 
@@ -440,7 +440,7 @@ disk
 
 ##### XV6 布局节构
 
-![img](img\p7.png)
+![img](img/p7.png)
 
 `block0` 要么没有用，要么被用作 `boot sector` 来启动操作系统。
 
@@ -501,7 +501,7 @@ disk
 
 * 第三阶段将“\n”换行符写入到文件
 
-![image-20231202183359475](img\p9.png)
+![image-20231202183359475](img/p9.png)
 
 ##### 创建文件
 
@@ -565,7 +565,7 @@ acquiresleeplock(struct sleeplock* lk) {
 
 最开始有一个 header block，里面数字 n 代表有效 block 数量，接下来 n 个 log block 里面是 block 的编号
 
-![img](img\p2.png)
+![img](img/p2.png)
 
 #### log write 函数
 
