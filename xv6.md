@@ -155,7 +155,7 @@ userinit        内核空间 -> 用户空间
 
 一个 `page table` 最大为 $2^{27}$ ，物理地址最大为 $2^{56}$
 
-<img src="img\assets%2F-MHZoT2b_bcLghjAOPsJ%2F-MKKjB2an4WcuUmOlE__%2F-MKPwJezGQDkWaLDRuDs%2Fimage.png" alt="img" style="zoom: 33%;" />
+<img src="img\p5.png" alt="img" style="zoom: 33%;" />
 
 `SATP` 寄存器会指向最高一级的 `page directory` 的物理内存地址，之后我们用虚拟内存中 `index` 的高 `9bit` 用来索引最高一级的 `page directory`，这样我们就能得到一个`PPN`，也就是物理 `page` 号。这个 `PPN` 指向了中间级的 `page directory`。
 
