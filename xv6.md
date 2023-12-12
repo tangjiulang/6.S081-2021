@@ -565,7 +565,7 @@ acquiresleeplock(struct sleeplock* lk) {
 
 最开始有一个 header block，里面数字 n 代表有效 block 数量，接下来 n 个 log block 里面是 block 的编号
 
-![img](img\419141D7F20C2D762492866987F80233.jpg)
+![img](img\p2.png)
 
 #### log write 函数
 
