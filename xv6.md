@@ -169,7 +169,7 @@ userinit        内核空间 -> 用户空间
 
 主板上电后，第一、件事情是运行存储在 `boot ROM` 的代码，`boot` 完成后跳转到地址 `0x80000000`，
 
-<img src="img\assets%2F-MHZoT2b_bcLghjAOPsJ%2F-MK_UbCc81Y4Idzn55t8%2F-MKaY9xY8MaH5XTiwuBm%2Fimage.png" alt="img" style="zoom:50%;" />
+<img src="img\p6.png" alt="img" style="zoom:50%;" />
 
 #### `kvminit`（物理地址）
 
